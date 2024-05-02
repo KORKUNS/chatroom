@@ -1,0 +1,101 @@
+.chat-list {
+  padding: 5px;
+  margin: 0px;
+}
+
+.chat-list__profile {
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  margin-right: 5px;
+}
+
+.chat-list__user {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+}
+
+.chat-list__customer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.chat-list__info-ubox {
+  width: 100px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  font-size: 8px;
+  color: white;
+  border-radius: 8px 0 8px 8px;
+  padding: 0 5px 0 5px;
+}
+
+.chat-list__info-cbox {
+  width: 80px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(179, 179, 179, 0.4);
+  font-size: 8px;
+  border-radius: 0 10px 10px 10px;
+  padding: 0 5px 0 5px;
+}
+
+.chat-list__info-time {
+  font-size: 6px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.3);
+  margin-top: auto;
+}
+
+.chat-list__date {
+  height: 40px;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-list__date img {
+  width: 10px;
+  height: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  margin: 10px;
+  margin-bottom: auto;
+}
+
+.chat-list__alert {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.chat-list__info-d-day {
+  font-size: 7px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.chat-list__info-comment {
+  font-size: 7px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.chat-list__notice {
+  display: flex;
+  justify-content: center;
+  font-size: 6px;
+  font-weight: bold;
+  color: rgba(128, 128, 128, 0.5);
+}
